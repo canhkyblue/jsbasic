@@ -1,1 +1,7 @@
-kjasdkds
+
+let <tên biến> = giá trị (khai báo biến)
+console là bảng terminal
+
+terminal: 
+kiểm tra có môi trường node js: node -v
+
