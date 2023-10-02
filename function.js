@@ -7,3 +7,6 @@ function bieuthucnhan(a,b) {
  
 const tinhnhan1 =(4,5)
  console.log(tinhnhan1)
+
+
+//  function
