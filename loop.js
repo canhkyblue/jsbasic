@@ -48,6 +48,65 @@ let arr = [3,451,5,2,6,76,3,5,1,243,6,4]
 // }
 //  console.log (arr1)
 
-// câu g
+// câu f
+// let arr = [1,2,4,6]
+// let dodaimang = arr.length 
+// console.log (dodaimang)
+// console.log (arr[0])
 
 
+// câu e 
+
+
+
+
+
+
+
+// câu h
+
+const dodaimang= arr.length 
+// let checktangdan = true
+// for(let i=0; i< dodaimang; i++){
+//     if (arr[i+1] <arr[i]){
+//         checktangdan = false
+//     }
+// }
+
+// if (checktangdan === true){
+//     console.log ('mang tang dan')
+// }
+// else {
+//     console.log ('mang ko tang dan')
+// }
+
+// câu i
+let j=0
+for (let i=0; i<dodaimang; i++){
+    for (let j = i +1 ; j< dodaimang; j++ ){
+        if (arr[i] >arr[j]){
+            bientam =arr [i]
+            arr [i] = arr[j]
+            arr [j]=bientam
+        }
+    }
+}
+
+    
+//     if (arr[i] > arr [i+1]){
+//         // swap (arr[i],arr[i+1]) : đổi vị trí
+//         let tam = arr[i]
+//         arr [i]= arr[i+1]
+//         arr [i+1] =tam 
+//     }
+// }
+
+// for (let j = i ; j< dodaimang; j++ ){
+//     if (arr[j] >arr[j+1]){
+//         bientam =arr [j]
+//         arr [j] = arr[j+1]
+//         arr [j+1]=bientam
+//     }
+// }
+
+console.log (arr)
